@@ -1,0 +1,581 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.ContainerNav {
+    position: sticky;
+    top: 0px;
+    padding: 0rem 0.4rem;
+    background-color: rgba(221, 221, 5, 0.818);
+}
+.navA{
+    color: white;
+   text-decoration: none;
+}
+.NavBar {
+    background-color: transparent;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    height: 5rem;
+}
+
+.NavBtn {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+    justify-content: center;
+
+}
+
+.NavBtn .navli {
+    color: white;
+    height: 2rem;
+    width: 100%;
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-family: sans-serif;
+    display: flex;
+    padding: 10px;
+    border-radius: 5px;
+    align-items: center;
+    align-content: center;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.navli:hover {
+    background-color: rgba(114, 106, 106, 0.295);
+    border: 1px solid white;
+}
+
+.InnerInput {
+    height: 100%;
+    outline: none;
+    width: 150px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0px 0px 2px rgba(64, 55, 55, 0.723);
+
+}
+
+.InnerInput:focus {
+    box-shadow: 0px 0px 3px rgba(44, 7, 253, 0.969);
+}
+
+.LogoDiv {
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.logo {
+    width: 100%;
+    height: 100%;
+}
+
+.HomeSection {
+    background-color: rgb(255, 191, 0);
+    display: flex;
+    justify-content: space-between;
+    padding: 0rem 7rem;
+    flex-wrap: nowrap;
+    width: 100%;
+    flex-direction: row;
+    height: 90vh;
+}
+
+.DetailSection {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 0rem 7rem;
+    flex-wrap: nowrap;
+    width: 100%;
+    flex-direction: row;
+    height: 80vh;
+}
+
+.DetailmainHeaderText {
+    width: 350px;
+    font-family: sans-serif;
+    font-size: 2.25rem;
+    color: black;
+}
+
+.HomeImage {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.ImagesPhoto {
+    width: 100%;
+    height: 100%;
+}
+
+.mainHeaderText {
+    width: 390px;
+    font-family: sans-serif;
+    font-size: 3.5rem;
+    color: rgb(250, 250, 249);
+}
+
+.HomeText {
+    margin-top: 100px;
+    width: 50%;
+
+}
+
+.paragraph {
+    width: 300px;
+    margin-top: 10px;
+    color: rgb(230, 221, 221);
+}
+
+.headerText {
+    color: white;
+}
+
+.homeBtn {
+    width: 200px;
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+    height: 2rem;
+}
+
+.DetailHomeBtnSer {
+    height: 100%;
+    width: 5.5rem;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid white;
+    background-color: orange;
+    cursor: pointer;
+}
+
+.HomeBtnSer {
+    height: 100%;
+    width: 5.5rem;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid black;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.HomeBtnSer:hover,
+.DetailHomeBtnSer:hover {
+    background-color: rgb(30, 174, 231);
+    border: 1px solid white;
+}
+
+.HomeBtnCont {
+    height: 100%;
+    cursor: pointer;
+    width: 5.5rem;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(30, 174, 231);
+}
+
+.HomeBtnCont:hover {
+    background-color: transparent;
+    border: 1px solid black;
+}
+
+.sectionDoctor {
+    background-color: rgb(255, 191, 0);
+    padding: 0rem 7rem;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.DoctorDivMain {
+    display: flex;
+    color: white;
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
+    width: 100%;
+    height: 100px;
+    margin-top: 2.25rem;
+}
+.DoctorDivMainTeam{
+    display: flex;
+    color: black;
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
+    width: 100%;
+    height: 100px;
+    margin-top: 2.25rem;
+}
+.DocParagraph {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 500px;
+}
+
+.cardHeader{
+    height: 480px;
+    width: 100%;
+    display: flex;
+    gap: 3rem;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.ImagesPhoto{
+    width: 100%;
+    height: 100%;
+    padding: 2rem;
+    border-radius: 10px;
+}
+.cardMainPart{
+    margin-top: 1rem;
+    width: 300px;
+    height: 370px;
+    border-radius: 5px;
+    padding: 5px;
+    border: 1px solid black;
+    background-color: transparent;
+    cursor: pointer
+}
+.cardMainPartTeam{
+    margin-top: 1rem;
+    width: 300px;
+    height: 370px;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: rgba(242, 231, 211, 0.836);
+    cursor: pointer
+}
+.cardMainPart:hover{
+    box-shadow: 0px 0px 4px white;
+}
+.cardImagePart{
+    width: 100%;
+    height: 200px;
+}
+.cardImage{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px 5px 0px 0px;
+}
+.cardHeaderMain{
+    margin-top: 1.25rem;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 1.25rem;
+}
+.cardHeaderMainteam{
+    margin-top: 1.25rem;
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-size: 1.25rem;
+}
+.cardHeaderDescription{
+    margin-top: 1.25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(246, 236, 236);
+    font-size: 0.9rem;
+}
+.cardHeaderDescriptionTeam{
+    margin-top: 1.25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 0.9rem;
+}
+.cardHeaderDescriptionSubTeam{
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 0.9rem;
+}
+.btnBuyNow{
+    background-color: rgba(14, 241, 226, 0.87);
+    color: white;
+    border: none;
+    width: 5rem;
+    height: 1.6rem;
+    border-radius: 5px;
+}
+.btnBuyNow:hover{
+    background-color: white;
+    color: rgba(14, 241, 226, 0.87);
+    border: 1px solid black;
+}
+.btnBuyNow:active{
+    background-color: rgb(0, 102, 255);
+}
+.btnBuySection{
+    margin-top: 8px;
+    display: flex;
+    justify-content: center;
+}
+.footer{
+    width: 100%;
+    height: 19rem;
+    margin-top: 2rem;
+    background-color: rgba(40, 37, 37, 0.846);
+    padding: 5rem 7rem 0rem 7rem;
+    display: flex;
+    flex-direction: column;
+}
+.footerMain{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.footer1{
+    height: 100%;
+    width: 25%;
+}
+.footer2{
+    height: 100%;
+    width: 25%;
+}
+.footer3{
+    height: 100%;
+    width: 50%;
+}
+.mainUl{
+    margin-top: 20px;
+}
+.footerDescription{
+    display: flex;
+    justify-content: center;
+    color: white;
+    align-items: center;
+    padding: 10px;
+}
+.lifooterlist{
+    color: white;
+    margin: 3px;
+    list-style: none;
+    cursor: pointer;
+}
+.headerFooter{
+    color: white;
+}
+
+.thirdTitlefooter{
+    display: flex;
+    justify-content: end;
+    color: rgb(218, 197, 197);
+}
+.lifooterlist:hover{
+    text-decoration: underline;
+}
+.inputsection{
+    height: 2.25rem;
+    display: flex;
+    justify-content: end;
+    align-content: center;
+    align-items: center;
+    margin-top: 8px;
+}
+.inputSendToAdmin{
+height: 2rem;
+outline: none;
+padding: 10px;
+border-radius: 5px 0px 0px 5px;
+border: none;
+box-shadow: 0px 0px 2px rgba(64, 55, 55, 0.723);
+background-color: rgb(255, 191, 0) ;
+color: white;
+}
+.icon{
+    width: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2rem;
+    background-color: yellow;
+    cursor: pointer;
+    border-radius: 0px 5px 5px 0px;
+}
+.footerIcons{
+    height: 2rem;
+    display: flex;
+    margin-top: 10px;
+    justify-content: end;
+
+}
+.IconUlTag ,.IconUlTag1{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
+.IconLiTag{
+    width: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2rem;
+    background-color:blue;
+    border-radius: 20px;
+    color: white;
+}
+.IconLiTag1{
+    width: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2rem;
+    background-color:rgb(255, 191, 0);
+    border-radius: 20px;
+    color: white;
+}
+.IconLiTag1:hover{
+    background-color: white;
+    color: rgb(255, 191, 0);
+}
+.IconLiTag1:active{
+    background-color: blueviolet;
+    color: rgb(255, 191, 0);
+}
+.sectionTeams{
+    background-color: white;
+    padding: 0rem 7rem;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+.ShowData{
+    background-image: url("./images/doctor1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 80vh;
+    overflow: hidden;
+}
+.ColorShadow{
+   background-color: rgba(255, 191, 0, 0.397);;
+    padding: 0rem 7rem;
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+.NUmberCard{
+    background-color: rgba(75, 124, 193, 0.428);
+    display: flex;
+    width: 300px;
+    height: 300px;
+    border-radius: 5rem;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.NumberIconCard{
+    background-color: rgb(39, 181, 185);
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.HeaderNumberCard{
+    margin-top: 20px;
+    color:white;
+    font-family: sans-serif;
+}
+.MainNumberCardHeader{
+    margin-top: 5px;
+    color: white;
+    font-family: sans-serif;
+}
+.recentHeaders{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.recentPosts{
+    padding: 0rem 7rem;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+.recentdes{
+    font-weight: 400;
+    margin-top: 1rem;
+}
+.RecentCardDiv{
+    margin-top: 3rem;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.RecentMainCardPart{
+    width: 300px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+.RecentCardImages{
+    width: 100%;
+    border-radius: 5px 5px 0px 0px;
+    height: 200px;
+    border: none;
+}
+.RecentImageDescription{
+    border-left: 1px solid black;
+    height: 200px;
+    width: 300px;
+    border-radius: 0px 0px 5px 5px;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    margin-bottom: 2px;
+    padding: 1rem;
+}
+.RecentHeaderImage{
+    margin-top: 15px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.RecentDate{
+    margin-top: 9px;
+    margin-bottom: 9px;
+    color: aqua;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.recentLinkMore{
+    color: rgba(0, 255, 255, 0.88);
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 9px;
+}
+.recentLinkMore:hover{
+    color: blue;
+}
